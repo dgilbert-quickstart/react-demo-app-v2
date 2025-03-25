@@ -6,12 +6,17 @@ function App() {
     console.log(msgText)
   }
  
+  const lnkusestatedemo1 = () => {
+    let msgText = "# app::lnkusestatedemo1"
+    console.log(msgText)
+   }
+ 
   return (
     <>
           <p>Demo react app v2.0</p>
           <div>
             <a href="#" onClick={lnkuserefdemo1}>useRef demo 1</a><p></p>
-            <a href="#">useState demo 1</a><p></p>
+            <a href="#" onClick={lnkusestatedemo1}>useState demo 1</a><p></p>
           </div>
           <div>
             [displa info]
