@@ -16,7 +16,8 @@ function App() {
           <p>Demo react app v2.0</p>
           <div>
             <a href="#" onClick={lnkuserefdemo1}>useRef demo 1</a><p></p>
-            <a href="#" onClick={lnkusestatedemo1}>useState demo 1</a><p></p>
+            <a href="#" >useRef demo 2</a><p></p>
+            <a href="#" onClick={lnkusestatedemo1}>useState demo 1</a><p></p>              
           </div>
           <div>
             [displa info]
